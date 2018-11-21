@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+}
+
+/* CSS code that ensures background image fits screens correctly */
+/* Code found from http://sixrevisions.com/css/responsive-background-image/ */
+body {
+  background-image: url(./images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+}
+
+header {
+  text-align: center;
+}
+
+button {
+  background-color: rgba(46, 48, 66, 0.8);
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #383;
+}
+
+h1, h2 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+
+/* Setting font for quotes */
+.quotes {
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
+}
+
+/* CSS for content sections of the index Page */
+.mainContent {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 440px;
+  width: 400px;
+  margin: 200px auto;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.profilePic {
+  height: 150px;
+  width: 150px;
+}
+
+/* CSS for content sections of the cvPage */
+.skillsContent {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 450px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+
+}
+
+.interestsContent {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 450px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.hobbiesContent {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 450px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.educationContent {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 450px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+/* CSS for content sections of the projectPage */
+.gameProject {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 590px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.databaseProject {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 590px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.reversiProject {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 590px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+.websiteProject {
+  background-color: rgba(163, 138, 150, 0.4);
+  height: 590px;
+  width: 360px;
+  margin: 200px 5px;
+  font-family: 'Dosis', sans-serif;
+  text-align: left;
+}
+
+/* CSS for content sections of the contactMePage */
+.contactName {
+  text-align: center;
+}
+
+/* Setting font size for icons */
+.icons {
+  font-size: 80px;
+}
+
+.tileImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
